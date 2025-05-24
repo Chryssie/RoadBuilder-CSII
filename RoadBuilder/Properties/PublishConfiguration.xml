@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Publish>
   <ModId Value="87190" />
-  <DisplayName Value="Road Builder [BETA]" />
+  <DisplayName Value="Road Builder [BETA] (Hotfixed by Chryssie)" />
   <ShortDescription Value="Create endless road combinations on the fly while you’re playing the game! With a slick and easy-to-use interface, you’ll be able to create the exact road that you need on the spot." />
   <LongDescription>
+# Notice
+
+This is a fork by Chryssie to fix a compatibility issue with the latest version of the game.
+
 # Road Builder
 **In collaboration with Trejak and BadPeanut**
 
@@ -126,16 +130,12 @@ This helps us better assist you and avoids your message from getting lost in the
   <Screenshot Value="Properties/Screenshot_07.png" />
   <Tag Value="Code Mod" />
   <ForumLink Value="https://forum.paradoxplaza.com/forum/threads/road-builder.1698661/" />
-  <ModVersion Value="0.5.4" />
+  <ModVersion Value="0.5.5" />
   <GameVersion Value="1.2.*" />
   <ChangeLog>
-# v0.5.4
+# v0.5.5
 ## Hotfix
-* Fixed an error caused by assets with unusual component combinations.
+* Fixed an error preventing the mod from working in the latest version.
 </ChangeLog>
-  <ExternalLink Type="discord" Url="https://discord.gg/E4k8ZEtRxd" />
-  <ExternalLink Type="github" Url="https://github.com/JadHajjar/RoadBuilder-CSII" />
-  <ExternalLink Type="crowdin" Url="https://crowdin.com/project/road-builder-cs-ii" />
-  <ExternalLink Type="patreon" Url="https://www.patreon.com/tdwsvillage" />
-  <ExternalLink Type="kofi" Url="https://ko-fi.com/trejak" />
+  <ExternalLink Type="github" Url="https://github.com/Chryssie/RoadBuilder-CSII" />
 </Publish>

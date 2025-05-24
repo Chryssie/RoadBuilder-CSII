@@ -38,24 +38,27 @@ namespace RoadBuilder.Utilities.Online
 
 		private async Task<T?> Get<T>(string url, params (string, object?)[] queryParams)
 		{
-			return await _apiUtil.Get<T>(KEYS.API_URL + url
-				, new (string, string)[] { ("USER_ID", PdxModsUtil.UserId ?? string.Empty), ("IDENTIFIER", PlatformManager.instance.userSpecificPath) }
-				, queryParams);
+			return default;
+			//return await _apiUtil.Get<T>(KEYS.API_URL + url
+			//	, new (string, string)[] { ("USER_ID", PdxModsUtil.UserId ?? string.Empty), ("IDENTIFIER", PlatformManager.instance.userSpecificPath) }
+			//	, queryParams);
 		}
 
 		private async Task<T?> Delete<T>(string url, params (string, object?)[] queryParams)
 		{
-			return await _apiUtil.Delete<T>(KEYS.API_URL + url
-				, new (string, string)[] { ("USER_ID", PdxModsUtil.UserId ?? string.Empty), ("IDENTIFIER", PlatformManager.instance.userSpecificPath) }
-				, queryParams);
+			return default;
+			//return await _apiUtil.Delete<T>(KEYS.API_URL + url
+			//	, new (string, string)[] { ("USER_ID", PdxModsUtil.UserId ?? string.Empty), ("IDENTIFIER", PlatformManager.instance.userSpecificPath) }
+			//	, queryParams);
 		}
 
 		private async Task<T?> Post<TBody, T>(string url, TBody body, params (string, object?)[] queryParams)
 		{
-			return await _apiUtil.Post<TBody, T>(KEYS.API_URL + url
-				, body
-				, new (string, string)[] { ("USER_ID", PdxModsUtil.UserId ?? string.Empty), ("IDENTIFIER", PlatformManager.instance.userSpecificPath) }
-				, queryParams);
+			return default;
+			//return await _apiUtil.Post<TBody, T>(KEYS.API_URL + url
+			//	, body
+			//	, new (string, string)[] { ("USER_ID", PdxModsUtil.UserId ?? string.Empty), ("IDENTIFIER", PlatformManager.instance.userSpecificPath) }
+			//	, queryParams);
 		}
 	}
 }
